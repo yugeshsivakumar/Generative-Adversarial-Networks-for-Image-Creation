@@ -1,0 +1,6 @@
+tensorflow-datasets==4.5.2
+tensorflow-gpu==2.8.0
+matplotlib==3.5.1
+tensorflow==2.8.0
+ipywidgets==7.7.0
+numpy==1.22.3
