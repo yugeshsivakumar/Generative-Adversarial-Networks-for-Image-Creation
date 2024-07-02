@@ -10,6 +10,7 @@ This project implements a Generative Adversarial Network (GAN) for generating fa
   - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
+- [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -57,6 +58,12 @@ The project structure is as follows:
 - `requirements.txt:` List of Python dependencies.
 - `models/:` Directory for saving trained GAN models.
 - `results/:` Directory for saving generated fashion images.
+
+## Results
+After training the GAN model, you can find the generated fashion images in the results/ directory. Here are some examples of the generated images:
+
+![image](https://github.com/yugeshsivakumar/Generative-Adversarial-Networks-for-Image-Creation/assets/156910899/93ac4e62-f37c-4de9-ac21-c075c91fd60e)
+
 
 ### Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
