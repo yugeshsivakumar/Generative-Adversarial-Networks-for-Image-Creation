@@ -10,6 +10,7 @@ This project implements a Generative Adversarial Network (GAN) for generating fa
   - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
+- [Dockerization](#dockerization)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
@@ -58,6 +59,22 @@ The project structure is as follows:
 - `requirements.txt:` List of Python dependencies.
 - `models/:` Directory for saving trained GAN models.
 - `results/:` Directory for saving generated fashion images.
+
+## Dockerization
+You can also run the project using Docker.
+
+### Building the Docker Image
+To build the Docker image:
+
+```bash
+docker build -t image-gan .
+```
+### Running the Docker Container
+To run the Docker container:
+
+```bash
+docker run -p 8888:8888 --gpus all image-gan
+```
 
 ## Results
 After training the GAN model, you can find the generated fashion images in the results/ directory. Here are some examples of the generated images:
